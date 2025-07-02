@@ -117,7 +117,7 @@ if (form) {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     const data = new FormData(form);
-    const sheetURL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"; // Replace with actual Apps Script URL
+    const sheetURL = "https://script.google.com/macros/s/AKfycbxjAJlg1ruVFHAvj0KT7x4rjQNDoHyEl2QtnkAjXr4TgorL22sfqJbnyAJhNpDgrNIO/exec"; // Replace with actual Apps Script URL
 
     fetch(sheetURL, {
       method: "POST",
